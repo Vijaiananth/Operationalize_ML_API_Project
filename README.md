@@ -2,6 +2,9 @@
 
 <include a CircleCI status badge, here>
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Vijaiananth/Operationalize_ML_API_Project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Vijaiananth/Operationalize_ML_API_Project/tree/main)
+
+
 ## Project Overview
 
 In this project, I have applied the skills that I have acquired in this course to operationalize a Machine Learning Microservice API. 
