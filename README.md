@@ -1,6 +1,6 @@
 # Operationalize ML API Project
 
-<include a CircleCI status badge, here>
+## CircleCI status badge
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Vijaiananth/Operationalize_ML_API_Project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Vijaiananth/Operationalize_ML_API_Project/tree/main)
 
