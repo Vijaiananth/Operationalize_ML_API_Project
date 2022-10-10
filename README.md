@@ -32,6 +32,15 @@ Project goal is to operationalize this working, machine learning microservice us
 
 ## Setup the Environment
 
+1. Create a cloud9 environment.
+2. Increase storage volume to 30 GB
+3. Clone this git repo.
+4. Create a local python environment
+    python3 -m venv ~/.Operationalize_ML_API_Project
+5. Activate it
+    source ~/.Operationalize_ML_API_Project/bin/activate
+6. Run make install to install all dependancies.
+
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
@@ -40,7 +49,10 @@ Project goal is to operationalize this working, machine learning microservice us
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+Steps to be followed in Cloud9 environment:
+
+1. Install minikube
+2. Install kubectl
+3. Run minikube start
+4. Run run_kubernetes.sh script and this will create a pod with the flask app
+5. In another terminal, run make_predictions.sh and this will result in prediction response.
