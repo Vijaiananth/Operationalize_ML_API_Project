@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# This tags and uploads an image to Docker Hub
 
 #Assumes this is built
 # See `run_docker.sh`
